@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <header>
+    <h1> Payment Form</h1>
+    <h2>contacts</h2>
+    <p>Required fields are marked by * </p>
+</header>
+    <p> Name : * <input type="text" required></p>
+    <fieldset>
+        <legend>Gender</legend>
+<p>Male : * <input type="radio" name="gender" id="Male" required>Female : <input type="radio" name="gender" id="Female" required></p>
+</fieldset>
+<p>Address : <textarea name="address" id="address" cols="80" rows="8"></textarea></p>
+<p> Emali : * <input type="email" name="email" id="email" required></p>
+<p> Pincode : * <input type="number" name="pincode" id="pincode" required></p>
+<hr>
+<h2>Payment Information</h2>
+<p>Card type: * 
+    <select name="Card Type" id="Card Type" required>
+        <option value="">select a card type</option>
+        <option value="Visa">Visa</option>
+        <option value="Paypal">Paypal</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Paytm">Paytm</option>
+    </select>
+</p>
+<p> Card Number : * <input type="number" name="Card_Number" id="Card_Number" required></p>
+<p>CVV : * <input type="password" name="CVV" id="CVV" required></p>
+<p>Expiration Date : * <input type="date" name="Exp_date" id="Exp_date" required></p>
+<h4>Check entered details carefully before you proceed</h4>
+<input type="submit" value="Pay Now">
+</form>
+<footer>
+    <a href="#">faq</a>
+       <a href="#">terms and condition</a>
+       <a href="#">policy</a>
+       <a href="#">refund</a>
+       <a href="#">&copy; NEP APPAREL</a>
+       <a href="index.html">homepage</a>
+</footer>
+</body>
+</html>
